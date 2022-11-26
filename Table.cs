@@ -202,14 +202,14 @@ namespace Chess
                 }
                 if (blackLostUnits.Contains("b_Bishop"))
                 {
-                    labels[X, Y].Image = System.Drawing.Image.FromFile("img/w_bishop.png");
+                    labels[X, Y].Image = System.Drawing.Image.FromFile("img/b_bishop.png");
                     map[X, Y] = "b_Bishop";
                     blackLostUnits.Remove("b_Bishop");
                     return;
                 }
                 if (blackLostUnits.Contains("b_Knight"))
                 {
-                    labels[X, Y].Image = System.Drawing.Image.FromFile("img/w_knight.png");
+                    labels[X, Y].Image = System.Drawing.Image.FromFile("img/b_knight.png");
                     map[X, Y] = "b_Knight";
                     blackLostUnits.Remove("b_Knight");
                     return;
